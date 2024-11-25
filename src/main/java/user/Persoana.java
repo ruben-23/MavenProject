@@ -7,6 +7,7 @@ public class Persoana {
     protected String adresa;
     protected String numarTelefon;
     protected String CNP;
+    protected String email;
 
     public Persoana(String nume, String prenume, String adresa, String numarTelefon, String CNP) {
         this.nume = nume;
