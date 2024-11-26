@@ -7,6 +7,7 @@ public class Secretara extends Persoana implements User{
 
     public Secretara(String nume, String prenume, String adresa, String numarTelefon, String CNP) {
         super(nume, prenume, adresa, numarTelefon, CNP);
+        this.rol = "ADMIN";
     }
 
     public void login(){}

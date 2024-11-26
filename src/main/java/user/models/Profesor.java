@@ -6,6 +6,7 @@ public class Profesor extends Persoana implements User{
 
     public Profesor(String nume, String prenume, String adresa, String numarTelefon, String CNP) {
         super(nume, prenume, adresa, numarTelefon, CNP);
+        this.rol = "PROFESOR";
     }
 
     public void login(){}

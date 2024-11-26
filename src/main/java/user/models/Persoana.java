@@ -1,4 +1,4 @@
-package user;
+package user.models;
 
 public class Persoana {
 

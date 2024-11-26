@@ -6,8 +6,4 @@ public class Elev extends Persoana {
         super(nume, prenume, adresa, numarTelefon, CNP);
     }
 
-    public void login(){}
-    public void logout(){}
-
-
 }
